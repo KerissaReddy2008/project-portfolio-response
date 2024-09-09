@@ -1,3 +1,23 @@
-h1 {
-    font-family: "Nunito";}
+h1{
+    font-family: "Playfair Display",
+        serif;
+    font-size: 96px;
+    text-align: center;
+   
+    font-weight: 700;
+}
 
+h2 {
+    font-family: "Poppins",
+        sans-serif;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 700;
+        
+}
+
+.cover {
+    font-family: "poppins" sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
