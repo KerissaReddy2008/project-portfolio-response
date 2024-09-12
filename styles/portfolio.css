@@ -8,6 +8,10 @@
     --primary-font-color:#272142;
 }
 
+.about-page {
+    padding: 160px 40px;
+}
+
 
 h1{
     font-family: var(--default-heading-font);
@@ -38,7 +42,33 @@ h2  {
 
 }
 
+.about-heading {
+    font-family: var(--default-heading-font);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85.31px;
+}
 
+.about-subheading {
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+
+.about-section-content {
+    margin: 36px;
+}
+
+.about-details {
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 70%;
+}
 
 .btn-contact {
 border-radius: 4px;
@@ -73,6 +103,13 @@ line-height: 27px;
     text-align: center;
     opacity: 70%;
     line-height: 30px;
+}
+
+
+.project-button {
+    background: var(--button-color);
+    color: white;
+    padding: 18px 30px;
 }
 
 .clear-button {
@@ -123,4 +160,29 @@ line-height: 27px;
     .description {
         font-size: 14px;
     }
+
+    .about-page {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .about-heading {
+        font-size: 50px;
+        line-height: 1.1;
+    }
+
+    .about-subheading {
+        font-size: 16px;
+    }
+
+    .about-details {
+        font-size: 14px;
+}
+
+.project-button {
+    padding: 5px;
+    font-size: 12px;
+}
+
+
 }
