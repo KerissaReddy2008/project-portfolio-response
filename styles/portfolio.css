@@ -148,6 +148,21 @@ line-height: 27px;
     font-weight: 400;
 }
 
+.contact-page  {
+    font-family: var(--default-heading-font);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.email {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-container {
+    text-align: center;
+}
+
 
 @media (max-width: 992px) {
     .description-left {
