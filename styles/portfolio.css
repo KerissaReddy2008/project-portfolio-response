@@ -156,6 +156,10 @@ line-height: 27px;
 
 .email {
     text-align: center;
+    font-size: 20px;
+}
+
+.my-email {
     font-size: 18px;
 }
 
@@ -233,6 +237,18 @@ line-height: 27px;
     font-size: 30px;
     line-height: 1.2;
     
+}
+
+.contact-page {
+    font-size: 30px;
+}
+
+.email {
+    font-size: 14px;
+}
+
+.my-email {
+    font-size: 12px;
 }
 
 }
