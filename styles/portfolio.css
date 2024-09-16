@@ -167,6 +167,42 @@ line-height: 27px;
     text-align: center;
 }
 
+.logo {
+    max-height:150px;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+    color: var(--button-color);
+}
+
+
+nav ul {
+    padding: 0;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav li.active a {
+  color: var(--button-color);
+}
+
 
 @media (max-width: 992px) {
     .description-left {
