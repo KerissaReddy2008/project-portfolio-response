@@ -230,6 +230,7 @@ footer .footer-email {
 
 .logo {
     max-height:150px;
+    max-width: 150px;
 }
 
 nav li {
@@ -374,10 +375,7 @@ footer .footer-email {
     font-size: 16px;
 }
 
-.footer-container {
-    padding: 20px;
-    display: block;
-    margin: 10px;
-}
 
 }
+
+
