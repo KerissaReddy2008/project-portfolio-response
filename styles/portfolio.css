@@ -118,13 +118,7 @@ line-height: 27px;
     padding: 18px 30px;
 }
 
-.footer-email {
-    font-size: 24px;
-    text-decoration: none;
-    color: #000000;
-    font-weight: 500;
-    font-weight: var(--paragraph-font);
-}
+
 
 .clear-button {
     
@@ -143,6 +137,65 @@ line-height: 27px;
     font-weight: 700;
     line-height: 85.31px;
 }
+.social-links a {
+    text-align: center;
+    margin: 0 20px;
+    color:var(--button-color);
+    background-color: var(--background-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+
+   
+}
+
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--button-color);
+}
+
+.footer {
+    font-size: 18px;
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+    line-height: 27px;
+    opacity: 70%;
+    margin: 0px;
+
+}
+
+h4 {
+    font-family: var(--default-heading-font);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.contact-box {
+    background-color: var(--background-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: var(--paragraph-font);
+    font-weight: 500;
+}
+
+
+footer .footer-email {
+    font-size: 24px;
+        text-decoration: none;
+        color: #000000;
+        font-weight: 500;
+        font-weight: var(--paragraph-font);
+        display: block;
+        text-align: center;
+    }
+
+    footer .footer-email:hover {
+        color: var(--button-color);
+    }
 
 .description-left {
     padding: 120px 60px;
@@ -226,6 +279,22 @@ nav li.active a {
         font-size: 40px;
     }
 
+    .footer-container {
+        padding: 20px;
+
+    }
+
+    h4 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+    
+
     .cover-wrap {
        padding: 50px 25px; 
     }
@@ -293,6 +362,16 @@ nav li.active a {
 
 .my-email {
     font-size: 12px;
+}
+
+.footer-container {
+    display: block;
+    text-align: center;
+    padding: 0px;
+
+}
+footer .footer-email {
+    font-size: 16px;
 }
 
 }
